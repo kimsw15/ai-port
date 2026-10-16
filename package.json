@@ -1,0 +1,17 @@
+{
+  "name": "ai-assisted-e2e-portfolio",
+  "version": "1.0.0",
+  "description": "AI를 활용한 E2E 테스트 자동화 포트폴리오 (Playwright + TypeScript)",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "analyze": "tsx ai/analyze-failures.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
